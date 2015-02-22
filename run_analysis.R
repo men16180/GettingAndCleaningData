@@ -66,4 +66,4 @@ write.table(tidydat, "./tidydat.txt", row.names=FALSE, sep=",")
 
 #Write codebook
 codebook <- capture.output(cat(names(tidydat),sep="\n"))
-write.table(codebook,"./codebook.txt", row.names=FALSE, col.names=FALSE)
+write.table(codebook,"./codebook.txt", col.names=FALSE)
