@@ -29,5 +29,5 @@ The script run_analysis.R downloads the data and processes it into a tidy data s
 
 The tidy data set is tidydat.txt.
 
-Codebook.txt contains the names of each column in the dataset.  
+Codebook.md contains a description of tidydat.txt.  
 
